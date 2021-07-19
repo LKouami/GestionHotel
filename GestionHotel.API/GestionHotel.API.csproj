@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionHotel.API.V1\GestionHotel.API.V1.csproj" />
+    <ProjectReference Include="..\GestionHotel.Data\GestionHotel.Data.csproj" />
+    <ProjectReference Include="..\GestionHotel.Domain\GestionHotel.Domain.csproj" />
+    <ProjectReference Include="..\GestionHotel.Model\GestionHotel.Model.csproj" />
+    <ProjectReference Include="..\GestionHotel.Service\GestionHotel.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Start\" />
+  </ItemGroup>
+
+
+</Project>
