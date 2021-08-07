@@ -1,9 +1,6 @@
-﻿using Seamless.Model.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using GestionHotel.Model.Dtos;
 
-namespace Seamless.Domain.Queries.User
+namespace GestionHotel.Domain.Queries.User
 {
     public class GetUsersQuery : QueryListBase<PagedResults<UserDto>>
     {

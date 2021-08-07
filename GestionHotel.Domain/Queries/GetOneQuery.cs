@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
 
-namespace Seamless.Domain.Queries
+namespace GestionHotel.Domain.Queries
 {
     public class GetOneQuery<T, TResult> : QueryBase<TResult> where TResult : class
     {

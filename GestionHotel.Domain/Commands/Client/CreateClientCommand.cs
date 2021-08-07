@@ -1,20 +1,24 @@
-﻿using Newtonsoft.Json;
-using GestionHotel.Model;
-using GestionHotel.Model.Dtos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GestionHotel.Domain.Commands.Common;
+using GestionHotel.Model.Dtos;
+using Newtonsoft.Json;
 
 namespace GestionHotel.Domain.Commands.Client
 {
-   public class CreateClientCommand : CreateCommandBase<ClientDto>
+    public class CreateClientCommand : CreateCommandBase<ClientDto>
     {
         public CreateClientCommand() : base()
         {
 
         }
         [JsonProperty("id")]
-        public long Id { get; set; }
+        public int Id { get; set; }
+        [JsonProperty("typeClientId")]
+        public int TypeClientId { get; set; }
+        [JsonProperty("organismeId")]
+        public int? OrganismeId { get; set; }
         [JsonProperty("nom")]
         public string Nom { get; set; }
         [JsonProperty("prenom")]
@@ -24,13 +28,11 @@ namespace GestionHotel.Domain.Commands.Client
         [JsonProperty("email")]
         public string Email { get; set; }
         [JsonProperty("dateNaissance")]
-        public DateTime? DateNaissance { get; set; }
+        public DateTime DateNaissance { get; set; }
         [JsonProperty("domicileHabituel")]
         public string DomicileHabituel { get; set; }
         [JsonProperty("tel")]
         public string Tel { get; set; }
-        [JsonProperty("typeClientId")]
-        public int TypeClientId { get; set; }
         [JsonProperty("status")]
         public byte Status { get; set; }
     }

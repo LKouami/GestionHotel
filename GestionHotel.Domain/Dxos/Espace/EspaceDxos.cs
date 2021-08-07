@@ -43,7 +43,7 @@ namespace GestionHotel.Domain.Dxos
 
 
                 cfg.CreateMap<UpdateEspaceCommand, SEspace>()
-                    .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
                   .ForMember(dst => dst.Numero, opt => opt.MapFrom(src => src.Numero))
                   .ForMember(dst => dst.Nom, opt => opt.MapFrom(src => src.Nom))
                   .ForMember(dst => dst.Situation, opt => opt.MapFrom(src => src.Situation))

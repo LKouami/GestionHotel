@@ -5,6 +5,12 @@ namespace GestionHotel.Model.Models
 {
     public partial class SEspace
     {
+        public SEspace()
+        {
+            SAffectationMateriel = new HashSet<SAffectationMateriel>();
+            SLocation = new HashSet<SLocation>();
+        }
+
         public int Id { get; set; }
         public string Numero { get; set; }
         public string Nom { get; set; }
@@ -20,5 +26,10 @@ namespace GestionHotel.Model.Models
         public DateTime ModifiedAt { get; set; }
         public int? DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
+
+        public virtual SEtatEspace EtatEspace { get; set; }
+        public virtual STypeEspace TypeEspace { get; set; }
+        public virtual ICollection<SAffectationMateriel> SAffectationMateriel { get; set; }
+        public virtual ICollection<SLocation> SLocation { get; set; }
     }
 }

@@ -14,6 +14,8 @@ namespace GestionHotel.Domain.Dxos
             {
                 cfg.CreateMap<SClient, ClientDto>()
                   .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
+                  .ForMember(dst => dst.OrganismeId, opt => opt.MapFrom(src => src.OrganismeId))
                   .ForMember(dst => dst.Nom, opt => opt.MapFrom(src => src.Nom))
                   .ForMember(dst => dst.Prenom, opt => opt.MapFrom(src => src.Prenom))
                   .ForMember(dst => dst.Nationalite, opt => opt.MapFrom(src => src.Nationalite))
@@ -21,13 +23,13 @@ namespace GestionHotel.Domain.Dxos
                   .ForMember(dst => dst.DateNaissance, opt => opt.MapFrom(src => src.DateNaissance))
                   .ForMember(dst => dst.DomicileHabituel, opt => opt.MapFrom(src => src.DomicileHabituel))
                   .ForMember(dst => dst.Tel, opt => opt.MapFrom(src => src.Tel))
-                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
                   .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.ModifiedAt))
                   .ForMember(dst => dst.ModifiedBy, opt => opt.MapFrom(src => src.ModifiedBy))
                     ;
 
                 cfg.CreateMap<CreateClientCommand, SClient>()
+                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
                   .ForMember(dst => dst.Nom, opt => opt.MapFrom(src => src.Nom))
                   .ForMember(dst => dst.Prenom, opt => opt.MapFrom(src => src.Prenom))
                   .ForMember(dst => dst.Nationalite, opt => opt.MapFrom(src => src.Nationalite))
@@ -35,7 +37,7 @@ namespace GestionHotel.Domain.Dxos
                   .ForMember(dst => dst.DateNaissance, opt => opt.MapFrom(src => src.DateNaissance))
                   .ForMember(dst => dst.DomicileHabituel, opt => opt.MapFrom(src => src.DomicileHabituel))
                   .ForMember(dst => dst.Tel, opt => opt.MapFrom(src => src.Tel))
-                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
+                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt))
                   .ForMember(dst => dst.CreatedBy, opt => opt.MapFrom(src => src.CreatedBy))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.CreatedAt))
@@ -44,6 +46,9 @@ namespace GestionHotel.Domain.Dxos
 
 
                 cfg.CreateMap<UpdateClientCommand, SClient>()
+                  .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
+                  .ForMember(dst => dst.OrganismeId, opt => opt.MapFrom(src => src.OrganismeId))
                   .ForMember(dst => dst.Nom, opt => opt.MapFrom(src => src.Nom))
                   .ForMember(dst => dst.Prenom, opt => opt.MapFrom(src => src.Prenom))
                   .ForMember(dst => dst.Nationalite, opt => opt.MapFrom(src => src.Nationalite))
@@ -51,7 +56,7 @@ namespace GestionHotel.Domain.Dxos
                   .ForMember(dst => dst.DateNaissance, opt => opt.MapFrom(src => src.DateNaissance))
                   .ForMember(dst => dst.DomicileHabituel, opt => opt.MapFrom(src => src.DomicileHabituel))
                   .ForMember(dst => dst.Tel, opt => opt.MapFrom(src => src.Tel))
-                  .ForMember(dst => dst.TypeClientId, opt => opt.MapFrom(src => src.TypeClientId))
+                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.ModifiedAt))
                   .ForMember(dst => dst.ModifiedBy, opt => opt.MapFrom(src => src.ModifiedBy))
                   ;

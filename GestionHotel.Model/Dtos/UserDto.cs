@@ -1,5 +1,6 @@
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 
 namespace GestionHotel.Model.Dtos
 {
@@ -7,6 +8,10 @@ namespace GestionHotel.Model.Dtos
     {
         [JsonProperty("id")]
         public int Id { get; set; }
+        [JsonProperty("firstname")]
+        public string Firstname { get; set; }
+        [JsonProperty("lastname")]
+        public string Lastname { get; set; }
         [JsonProperty("email")]
         public string Email { get; set; }
         [JsonProperty("password")]

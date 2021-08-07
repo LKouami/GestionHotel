@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace GestionHotel.Domain.Commands
+namespace GestionHotel.Domain.Commands.Common
 {
     public class CreateCommandBase<T> : IRequest<T> where T : class
     {

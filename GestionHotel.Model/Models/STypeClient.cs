@@ -5,6 +5,11 @@ namespace GestionHotel.Model.Models
 {
     public partial class STypeClient
     {
+        public STypeClient()
+        {
+            SClient = new HashSet<SClient>();
+        }
+
         public int Id { get; set; }
         public string Nom { get; set; }
         public byte Status { get; set; }
@@ -14,5 +19,7 @@ namespace GestionHotel.Model.Models
         public DateTime ModifiedAt { get; set; }
         public int? DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
+
+        public virtual ICollection<SClient> SClient { get; set; }
     }
 }

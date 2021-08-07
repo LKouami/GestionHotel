@@ -1,10 +1,10 @@
-﻿using Seamless.Model;
-using Seamless.Model.Dtos;
+﻿using GestionHotel.Model;
+using GestionHotel.Model.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Seamless.Domain.Queries.User
+namespace GestionHotel.Domain.Queries.User
 {
     public class GetUserQuery : GetOneQuery<long, UserDto>
     {

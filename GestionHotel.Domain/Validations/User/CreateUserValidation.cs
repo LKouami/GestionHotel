@@ -1,30 +1,32 @@
-﻿using Seamless.Model.Models;
+﻿using GestionHotel.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-using Seamless.Domain.Commands.User;
+using GestionHotel.Domain.Commands.User;
 using FluentValidation;
 
-namespace Seamless.Domain.Validations.User
+namespace GestionHotel.Domain.Validations.User
 {
     public class CreateUserValidation : AbstractValidator<CreateUserCommand>
     {
-        SeamlessContext _dbContext;
+        NoyauxButlerDBContext _dbContext;
 
-        public CreateUserValidation(SeamlessContext dbContext)
+        public CreateUserValidation(NoyauxButlerDBContext dbContext)
         {
             _dbContext = dbContext;
          
-           RuleFor(x => x.Email).Must(BeNotADuplicate)
-                .WithMessage("There is already another user with the same email");
+            RuleFor(x => x.Email).NotNull();
+            RuleFor(x => x.Email).Must(BeNotADuplicate).WithMessage("Cet utilisateur a déja été enregistré");
+
         }
 
-        private bool BeNotADuplicate(string email)
+        private bool BeNotADuplicate(string parameterName)
         {
-            bool existAlready = _dbContext.AUser.Any(d => d.Email.ToLower().Equals(email.ToLower()));
+            bool existAlready = _dbContext.AUser.Any(d => d.Email.ToLower().Equals(parameterName.ToLower()));
 
             return !existAlready;
         }
+
     }
 }

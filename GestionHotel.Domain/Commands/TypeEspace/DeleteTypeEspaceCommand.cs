@@ -9,5 +9,4 @@ namespace GestionHotel.Domain.Commands.TypeEspace
     public class DeleteTypeEspaceCommand : DeleteBaseCommand<short, DeleteResult>
     {
     }
-
 }

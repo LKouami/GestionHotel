@@ -14,19 +14,23 @@ namespace GestionHotel.Domain.Dxos
             {
                 cfg.CreateMap<AUser, UserDto>()
                   .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.Firstname, opt => opt.MapFrom(src => src.Firstname))
+                  .ForMember(dst => dst.Lastname, opt => opt.MapFrom(src => src.Lastname))
                   .ForMember(dst => dst.Email, opt => opt.MapFrom(src => src.Email))
-                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.Password, opt => opt.MapFrom(src => src.Password))
                   .ForMember(dst => dst.Token, opt => opt.MapFrom(src => src.Token))
+                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.ModifiedAt))
                   .ForMember(dst => dst.ModifiedBy, opt => opt.MapFrom(src => src.ModifiedBy))
                     ;
 
                 cfg.CreateMap<CreateUserCommand, AUser>()
+                  .ForMember(dst => dst.Firstname, opt => opt.MapFrom(src => src.Firstname))
+                  .ForMember(dst => dst.Lastname, opt => opt.MapFrom(src => src.Lastname))
                   .ForMember(dst => dst.Email, opt => opt.MapFrom(src => src.Email))
-                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.Password, opt => opt.MapFrom(src => src.Password))
                   .ForMember(dst => dst.Token, opt => opt.MapFrom(src => src.Token))
+                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt))
                   .ForMember(dst => dst.CreatedBy, opt => opt.MapFrom(src => src.CreatedBy))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.CreatedAt))
@@ -35,11 +39,13 @@ namespace GestionHotel.Domain.Dxos
 
 
                 cfg.CreateMap<UpdateUserCommand, AUser>()
-                    .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.Firstname, opt => opt.MapFrom(src => src.Firstname))
+                  .ForMember(dst => dst.Lastname, opt => opt.MapFrom(src => src.Lastname))
                   .ForMember(dst => dst.Email, opt => opt.MapFrom(src => src.Email))
-                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.Password, opt => opt.MapFrom(src => src.Password))
                   .ForMember(dst => dst.Token, opt => opt.MapFrom(src => src.Token))
+                  .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.ModifiedAt))
                   .ForMember(dst => dst.ModifiedBy, opt => opt.MapFrom(src => src.ModifiedBy))
                   ;

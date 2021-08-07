@@ -1,20 +1,20 @@
-﻿using Newtonsoft.Json;
-using GestionHotel.Model;
-using GestionHotel.Model.Dtos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GestionHotel.Domain.Commands.Common;
+using GestionHotel.Model.Dtos;
+using Newtonsoft.Json;
 
 namespace GestionHotel.Domain.Commands.TypeEspace
 {
-   public class CreateTypeEspaceCommand : CreateCommandBase<TypeEspaceDto>
+    public class CreateTypeEspaceCommand : CreateCommandBase<TypeEspaceDto>
     {
         public CreateTypeEspaceCommand() : base()
         {
 
         }
         [JsonProperty("id")]
-        public long Id { get; set; }
+        public int Id { get; set; }
         [JsonProperty("nom")]
         public string Nom { get; set; }
         [JsonProperty("status")]

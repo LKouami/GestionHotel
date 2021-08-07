@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace GestionHotel.Domain.Commands
+namespace GestionHotel.Domain.Commands.Common
 {
     public class UpdateCommandBase<T> : IRequest<T> where T : class
     {
@@ -9,7 +9,7 @@ namespace GestionHotel.Domain.Commands
         {
 
         }
-        public UpdateCommandBase(int modifiedBy, DateTime modifiedAt)
+        public UpdateCommandBase(int modifiedBy, DateTime modifiedAt, int deletedBy, DateTime deletedAt)
         {
             ModifiedBy = modifiedBy;
             ModifiedAt = modifiedAt;

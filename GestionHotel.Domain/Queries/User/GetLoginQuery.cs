@@ -1,7 +1,7 @@
-using Seamless.Model.Dtos;
+using GestionHotel.Model.Dtos;
 using System;
 
-namespace Seamless.Domain.Queries.User
+namespace GestionHotel.Domain.Queries.User
 {
   
         public class GetLoginQuery : QueryBase<String>

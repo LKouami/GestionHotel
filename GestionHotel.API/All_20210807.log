@@ -1,271 +1,38 @@
-2021-08-07 10:05:03.304 +00:00 [INF] Application starting up
-2021-08-07 10:05:10.716 +00:00 [DBG] Hosting starting
-2021-08-07 10:05:10.856 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-08-07 10:05:10.891 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
-2021-08-07 10:05:11.015 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
-2021-08-07 10:05:11.043 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
-2021-08-07 10:05:11.062 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 10:05:11.064 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
-2021-08-07 10:05:11.067 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 10:05:11.080 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
-2021-08-07 10:05:11.084 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
-2021-08-07 10:05:11.090 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
-2021-08-07 10:05:11.091 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
-2021-08-07 10:05:11.689 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
-2021-08-07 10:05:11.693 +00:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-08-07 10:05:11.693 +00:00 [INF] Hosting environment: Development
-2021-08-07 10:05:11.693 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\KOUAMI Soutenance\Butler\Backend\GestionHotel\GestionHotel.API
-2021-08-07 10:05:11.693 +00:00 [DBG] Hosting started
-2021-08-07 10:05:11.740 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
-2021-08-07 10:05:11.745 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
-2021-08-07 10:05:11.750 +00:00 [VRB] All hosts are allowed.
-2021-08-07 10:05:11.772 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
-2021-08-07 10:05:11.798 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
-2021-08-07 10:05:11.864 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
-2021-08-07 10:05:11.865 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 10:05:11.975 +00:00 [DBG] Request information GET /swagger/index.html information
-2021-08-07 10:05:12.083 +00:00 [DBG] Response information GET /swagger/index.html 200
-2021-08-07 10:05:12.100 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 323.4438 ms
-2021-08-07 10:05:12.107 +00:00 [INF] Request finished in 374.2477ms 200 text/html;charset=utf-8
-2021-08-07 10:05:13.550 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
-2021-08-07 10:05:13.551 +00:00 [VRB] All hosts are allowed.
-2021-08-07 10:05:13.552 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
-2021-08-07 10:05:13.555 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
-2021-08-07 10:05:13.556 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 10:05:13.558 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
-2021-08-07 10:05:13.826 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
-2021-08-07 10:05:13.849 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 295.9145 ms
-2021-08-07 10:05:13.850 +00:00 [INF] Request finished in 301.863ms 200 application/json;charset=utf-8
-2021-08-07 11:49:22.481 +00:00 [INF] Application starting up
-2021-08-07 11:49:24.243 +00:00 [DBG] Hosting starting
-2021-08-07 11:49:24.329 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-08-07 11:49:24.340 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
-2021-08-07 11:49:24.370 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
-2021-08-07 11:49:24.382 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
-2021-08-07 11:49:24.390 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 11:49:24.392 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
-2021-08-07 11:49:24.393 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 11:49:24.396 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
-2021-08-07 11:49:24.398 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
-2021-08-07 11:49:24.401 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
-2021-08-07 11:49:24.401 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
-2021-08-07 11:49:24.674 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
-2021-08-07 11:49:24.674 +00:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-08-07 11:49:24.675 +00:00 [INF] Hosting environment: Development
-2021-08-07 11:49:24.679 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\KOUAMI Soutenance\Butler\Backend\GestionHotel\GestionHotel.API
-2021-08-07 11:49:24.679 +00:00 [DBG] Hosting started
-2021-08-07 11:49:24.707 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
-2021-08-07 11:49:24.710 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
-2021-08-07 11:49:24.710 +00:00 [VRB] All hosts are allowed.
-2021-08-07 11:49:24.722 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
-2021-08-07 11:49:24.732 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
-2021-08-07 11:49:24.764 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
-2021-08-07 11:49:24.765 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 11:49:24.796 +00:00 [DBG] Request information GET /swagger/index.html information
-2021-08-07 11:49:24.834 +00:00 [DBG] Response information GET /swagger/index.html 200
-2021-08-07 11:49:24.842 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 116.8764 ms
-2021-08-07 11:49:24.847 +00:00 [INF] Request finished in 143.9685ms 200 text/html;charset=utf-8
-2021-08-07 11:49:26.030 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
-2021-08-07 11:49:26.031 +00:00 [VRB] All hosts are allowed.
-2021-08-07 11:49:26.032 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
-2021-08-07 11:49:26.038 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
-2021-08-07 11:49:26.040 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 11:49:26.043 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
-2021-08-07 11:49:26.633 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
-2021-08-07 11:49:26.671 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 638.4168 ms
-2021-08-07 11:49:26.672 +00:00 [INF] Request finished in 641.9976ms 200 application/json;charset=utf-8
-2021-08-07 12:40:53.113 +00:00 [INF] Application starting up
-2021-08-07 12:40:56.218 +00:00 [DBG] Hosting starting
-2021-08-07 12:40:56.265 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-08-07 12:40:56.273 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
-2021-08-07 12:40:56.302 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
-2021-08-07 12:40:56.315 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
-2021-08-07 12:40:56.324 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 12:40:56.326 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
-2021-08-07 12:40:56.327 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
-2021-08-07 12:40:56.332 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
-2021-08-07 12:40:56.335 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
-2021-08-07 12:40:56.338 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
-2021-08-07 12:40:56.339 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
-2021-08-07 12:40:56.927 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
-2021-08-07 12:40:56.937 +00:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-08-07 12:40:56.937 +00:00 [INF] Hosting environment: Development
-2021-08-07 12:40:56.937 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\KOUAMI Soutenance\Butler\Backend\GestionHotel\GestionHotel.API
-2021-08-07 12:40:56.937 +00:00 [DBG] Hosting started
-2021-08-07 12:40:56.955 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
-2021-08-07 12:40:56.958 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
-2021-08-07 12:40:56.958 +00:00 [VRB] All hosts are allowed.
-2021-08-07 12:40:56.970 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
-2021-08-07 12:40:56.979 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
-2021-08-07 12:40:57.006 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
-2021-08-07 12:40:57.006 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 12:40:57.097 +00:00 [DBG] Request information GET /swagger/index.html information
-2021-08-07 12:40:57.141 +00:00 [DBG] Response information GET /swagger/index.html 200
-2021-08-07 12:40:57.149 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 175.1724 ms
-2021-08-07 12:40:57.155 +00:00 [INF] Request finished in 202.3156ms 200 text/html;charset=utf-8
-2021-08-07 12:40:57.890 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
-2021-08-07 12:40:57.891 +00:00 [VRB] All hosts are allowed.
-2021-08-07 12:40:57.892 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
-2021-08-07 12:40:57.893 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
-2021-08-07 12:40:57.894 +00:00 [DBG] Request did not match any endpoints
-2021-08-07 12:40:57.895 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
-2021-08-07 12:40:58.048 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
-2021-08-07 12:40:58.069 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 175.9913 ms
-2021-08-07 12:40:58.074 +00:00 [INF] Request finished in 183.9062ms 200 application/json;charset=utf-8
-2021-08-07 12:41:21.219 +00:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44376/api/v1/affectationmateriel?sort=id&direction=asc&pageSize=1&pageIndex=1  
-2021-08-07 12:41:21.220 +00:00 [VRB] All hosts are allowed.
-2021-08-07 12:41:21.220 +00:00 [DBG] OPTIONS requests are not supported
-2021-08-07 12:41:21.233 +00:00 [DBG] 1 candidate(s) found for the request path '/api/v1/affectationmateriel'
-2021-08-07 12:41:21.238 +00:00 [DBG] Endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)' with route pattern 'api/v1/AffectationMateriel' is valid for the request path '/api/v1/affectationmateriel'
-2021-08-07 12:41:21.239 +00:00 [DBG] Request matched endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
-2021-08-07 12:41:21.242 +00:00 [DBG] Request information OPTIONS /api/v1/affectationmateriel information
-2021-08-07 12:41:21.246 +00:00 [DBG] The request has an origin header: 'http://localhost:8080'.
-2021-08-07 12:41:21.246 +00:00 [INF] CORS policy execution successful.
-2021-08-07 12:41:21.246 +00:00 [DBG] The request is a preflight request.
-2021-08-07 12:41:21.247 +00:00 [DBG] Response information OPTIONS /api/v1/affectationmateriel 204
-2021-08-07 12:41:21.247 +00:00 [INF] HTTP OPTIONS /api/v1/affectationmateriel?sort=id&direction=asc&pageSize=1&pageIndex=1 responded 204 in 26.6141 ms
-2021-08-07 12:41:21.249 +00:00 [INF] Request finished in 29.7809ms 204 
-2021-08-07 12:41:21.255 +00:00 [DBG] Connection ID "18302628913014112268" disconnecting.
-2021-08-07 12:41:21.255 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/v1/affectationmateriel?sort=id&direction=asc&pageSize=1&pageIndex=1  
-2021-08-07 12:41:21.255 +00:00 [VRB] All hosts are allowed.
-2021-08-07 12:41:21.256 +00:00 [DBG] The request path /api/v1/affectationmateriel does not match a supported file type
-2021-08-07 12:41:21.260 +00:00 [DBG] 1 candidate(s) found for the request path '/api/v1/affectationmateriel'
-2021-08-07 12:41:21.260 +00:00 [DBG] Endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)' with route pattern 'api/v1/AffectationMateriel' is valid for the request path '/api/v1/affectationmateriel'
-2021-08-07 12:41:21.260 +00:00 [DBG] Request matched endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
-2021-08-07 12:41:21.261 +00:00 [DBG] Request information GET /api/v1/affectationmateriel information
-2021-08-07 12:41:21.261 +00:00 [DBG] The request has an origin header: 'http://localhost:8080'.
-2021-08-07 12:41:21.261 +00:00 [INF] CORS policy execution successful.
-2021-08-07 12:41:21.262 +00:00 [INF] Executing endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
-2021-08-07 12:41:21.269 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
-2021-08-07 12:41:21.330 +00:00 [INF] Route matched with {action = "GetAffectationMateriels", controller = "AffectationMateriel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[GestionHotel.Model.Dtos.PagedResults`1[GestionHotel.Model.Dtos.AffectationMaterielDto]]] GetAffectationMaterielsAsync(GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery) on controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1).
-2021-08-07 12:41:21.330 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
-2021-08-07 12:41:21.331 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
-2021-08-07 12:41:21.331 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","GestionHotel.API.Helpers.HttpResponseExceptionFilter (Order: 2147483637)"]
-2021-08-07 12:41:21.331 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
-2021-08-07 12:41:21.331 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
-2021-08-07 12:41:21.332 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:21.332 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:21.332 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
-2021-08-07 12:41:21.333 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
-2021-08-07 12:41:21.334 +00:00 [DBG] Executing controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
-2021-08-07 12:41:21.338 +00:00 [DBG] Executed controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
-2021-08-07 12:41:21.345 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
-2021-08-07 12:41:21.348 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' using the name '' in request data ...
-2021-08-07 12:41:21.352 +00:00 [DBG] Could not find a value in the request with name 'Search' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
-2021-08-07 12:41:21.353 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
-2021-08-07 12:41:21.360 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String' using the name 'Sort' in request data ...
-2021-08-07 12:41:21.361 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String'.
-2021-08-07 12:41:21.362 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String' using the name 'Direction' in request data ...
-2021-08-07 12:41:21.362 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String'.
-2021-08-07 12:41:21.362 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32' using the name 'PageIndex' in request data ...
-2021-08-07 12:41:21.363 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32'.
-2021-08-07 12:41:21.364 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
-2021-08-07 12:41:21.365 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32'.
-2021-08-07 12:41:21.365 +00:00 [DBG] Could not find a value in the request with name 'UserId' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
-2021-08-07 12:41:21.365 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
-2021-08-07 12:41:21.365 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
-2021-08-07 12:41:21.365 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
-2021-08-07 12:41:21.365 +00:00 [DBG] Attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
-2021-08-07 12:41:21.388 +00:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
-2021-08-07 12:41:21.389 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
-2021-08-07 12:41:21.390 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
-2021-08-07 12:41:21.391 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
-2021-08-07 12:41:21.391 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
-2021-08-07 12:41:21.391 +00:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
-2021-08-07 12:41:21.394 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
-2021-08-07 12:41:21.394 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
-2021-08-07 12:41:21.406 +00:00 [INF] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) - Validation state: "Valid"
-2021-08-07 12:41:21.406 +00:00 [VRB] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) with arguments (["GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery"])
-2021-08-07 12:41:21.968 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
-2021-08-07 12:41:23.281 +00:00 [WRN] The property 'Id' on entity type 'AClaim' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
-2021-08-07 12:41:23.282 +00:00 [WRN] The property 'Id' on entity type 'ARole' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
-2021-08-07 12:41:23.315 +00:00 [INF] Entity Framework Core 3.1.1 initialized 'NoyauxButlerDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
-2021-08-07 12:41:23.504 +00:00 [DBG] queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
-    asyncEnumerable: new QueryingEnumerable<int>(
-        (RelationalQueryContext)queryContext, 
-        RelationalCommandCache, 
-        null, 
-        ReaderColumn[] { ReaderColumn<int>, }, 
-        Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, int>, 
-        GestionHotel.Model.Models.NoyauxButlerDBContext, 
-        DiagnosticsLogger<Query>
-    ), 
-    cancellationToken: queryContext.CancellationToken)
-2021-08-07 12:41:23.546 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
-2021-08-07 12:41:23.878 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (327ms).
-2021-08-07 12:41:23.883 +00:00 [DBG] Opening connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.095 +00:00 [DBG] Opened connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.104 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
-SELECT COUNT(*)
-FROM [S_AffectationMateriel] AS [s]
-2021-08-07 12:41:24.147 +00:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
-SELECT COUNT(*)
-FROM [S_AffectationMateriel] AS [s]
-2021-08-07 12:41:24.181 +00:00 [DBG] A data reader was disposed.
-2021-08-07 12:41:24.184 +00:00 [DBG] Closing connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.191 +00:00 [DBG] Closed connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.223 +00:00 [DBG] queryContext => new QueryingEnumerable<AffectationMaterielDto>(
-    (RelationalQueryContext)queryContext, 
-    RelationalCommandCache, 
-    null, 
-    ReaderColumn[] { ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<byte>, }, 
-    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, AffectationMaterielDto>, 
-    GestionHotel.Model.Models.NoyauxButlerDBContext, 
-    DiagnosticsLogger<Query>
-)
-2021-08-07 12:41:24.229 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
-2021-08-07 12:41:24.229 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
-2021-08-07 12:41:24.232 +00:00 [DBG] Opening connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.233 +00:00 [DBG] Opened connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.236 +00:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
-SELECT [s].[Created_At] AS [CreatedAt], [s].[Created_By] AS [CreatedBy], [s].[Deleted_At] AS [DeletedAt], [s].[Deleted_By] AS [DeletedBy], [s].[EspaceId], [s].[Id], [s].[MaterielId], [s].[Modified_At] AS [ModifiedAt], [s].[Modified_By] AS [ModifiedBy], [s].[Status]
-FROM [S_AffectationMateriel] AS [s]
-ORDER BY [s].[Id]
-OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
-2021-08-07 12:41:24.270 +00:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
-SELECT [s].[Created_At] AS [CreatedAt], [s].[Created_By] AS [CreatedBy], [s].[Deleted_At] AS [DeletedAt], [s].[Deleted_By] AS [DeletedBy], [s].[EspaceId], [s].[Id], [s].[MaterielId], [s].[Modified_At] AS [ModifiedAt], [s].[Modified_By] AS [ModifiedBy], [s].[Status]
-FROM [S_AffectationMateriel] AS [s]
-ORDER BY [s].[Id]
-OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
-2021-08-07 12:41:24.279 +00:00 [DBG] A data reader was disposed.
-2021-08-07 12:41:24.280 +00:00 [DBG] Closing connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.280 +00:00 [DBG] Closed connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
-2021-08-07 12:41:24.287 +00:00 [INF] Executed action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2876.6141ms.
-2021-08-07 12:41:24.287 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
-2021-08-07 12:41:24.288 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
-2021-08-07 12:41:24.289 +00:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
-2021-08-07 12:41:24.289 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
-2021-08-07 12:41:24.289 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
-2021-08-07 12:41:24.290 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
-2021-08-07 12:41:24.290 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
-2021-08-07 12:41:24.291 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.291 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.291 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
-2021-08-07 12:41:24.291 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
-2021-08-07 12:41:24.291 +00:00 [VRB] Result Filter: Before executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
-2021-08-07 12:41:24.292 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
-2021-08-07 12:41:24.292 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
-2021-08-07 12:41:24.293 +00:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
-2021-08-07 12:41:24.294 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
-2021-08-07 12:41:24.295 +00:00 [DBG] No information found on request to perform content negotiation.
-2021-08-07 12:41:24.296 +00:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/json"]'.
-2021-08-07 12:41:24.296 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
-2021-08-07 12:41:24.296 +00:00 [INF] Executing ObjectResult, writing value of type 'GestionHotel.Model.Dtos.PagedResults`1[[GestionHotel.Model.Dtos.AffectationMaterielDto, GestionHotel.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
-2021-08-07 12:41:24.307 +00:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: After executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
-2021-08-07 12:41:24.307 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.308 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.308 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
-2021-08-07 12:41:24.308 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
-2021-08-07 12:41:24.309 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.309 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
-2021-08-07 12:41:24.313 +00:00 [INF] Executed action GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) in 2977.7955ms
-2021-08-07 12:41:24.314 +00:00 [INF] Executed endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
-2021-08-07 12:41:24.314 +00:00 [DBG] Response information GET /api/v1/affectationmateriel 200
-2021-08-07 12:41:24.314 +00:00 [INF] HTTP GET /api/v1/affectationmateriel?sort=id&direction=asc&pageSize=1&pageIndex=1 responded 200 in 3058.8437 ms
-2021-08-07 12:41:24.316 +00:00 [DBG] 'NoyauxButlerDBContext' disposed.
-2021-08-07 12:41:24.318 +00:00 [INF] Request finished in 3062.4054ms 200 application/json; charset=utf-8
+2021-08-07 12:58:56.911 +00:00 [INF] Application starting up
+2021-08-07 12:58:59.713 +00:00 [DBG] Hosting starting
+2021-08-07 12:58:59.758 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-07 12:58:59.764 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
+2021-08-07 12:58:59.794 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
+2021-08-07 12:58:59.805 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
+2021-08-07 12:58:59.813 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-07 12:58:59.815 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-07 12:58:59.816 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-07 12:58:59.821 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-07 12:58:59.824 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-07 12:58:59.826 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
+2021-08-07 12:58:59.827 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
+2021-08-07 12:59:00.384 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
+2021-08-07 12:59:00.394 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-07 12:59:00.394 +00:00 [INF] Hosting environment: Development
+2021-08-07 12:59:00.394 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\GitHub\GestionHotel\GestionHotel.API
+2021-08-07 12:59:00.394 +00:00 [DBG] Hosting started
+2021-08-07 12:59:00.409 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2021-08-07 12:59:00.412 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-07 12:59:00.412 +00:00 [VRB] All hosts are allowed.
+2021-08-07 12:59:00.423 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
+2021-08-07 12:59:00.432 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
+2021-08-07 12:59:00.464 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-08-07 12:59:00.464 +00:00 [DBG] Request did not match any endpoints
+2021-08-07 12:59:00.557 +00:00 [DBG] Request information GET /swagger/index.html information
+2021-08-07 12:59:00.593 +00:00 [DBG] Response information GET /swagger/index.html 200
+2021-08-07 12:59:00.599 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 173.1221 ms
+2021-08-07 12:59:00.603 +00:00 [INF] Request finished in 195.6948ms 200 text/html;charset=utf-8
+2021-08-07 12:59:01.292 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-07 12:59:01.293 +00:00 [VRB] All hosts are allowed.
+2021-08-07 12:59:01.293 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-07 12:59:01.294 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-07 12:59:01.295 +00:00 [DBG] Request did not match any endpoints
+2021-08-07 12:59:01.296 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-07 12:59:01.452 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-07 12:59:01.469 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 174.9965 ms
+2021-08-07 12:59:01.470 +00:00 [INF] Request finished in 178.5054ms 200 application/json;charset=utf-8

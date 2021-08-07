@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
-using GestionHotel.Model;
+﻿using GestionHotel.Domain.Commands.Common;
 using GestionHotel.Model.Dtos;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,7 +14,7 @@ namespace GestionHotel.Domain.Commands.TypeEspace
 
         }
         [JsonProperty("id")]
-        public long Id { get; set; }
+        public int Id { get; set; }
         [JsonProperty("nom")]
         public string Nom { get; set; }
         [JsonProperty("status")]

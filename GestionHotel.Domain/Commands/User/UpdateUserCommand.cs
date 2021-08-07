@@ -1,21 +1,24 @@
+﻿using GestionHotel.Domain.Commands.Common;
 using GestionHotel.Model.Dtos;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 using System;
-using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System.Text;
 
 namespace GestionHotel.Domain.Commands.User
 {
     public class UpdateUserCommand : UpdateCommandBase<UserDto>
     {
-
         public UpdateUserCommand()
         {
 
         }
-
         [JsonProperty("id")]
         public int Id { get; set; }
+        [JsonProperty("firstname")]
+        public string Firstname { get; set; }
+        [JsonProperty("lastname")]
+        public string Lastname { get; set; }
         [JsonProperty("email")]
         public string Email { get; set; }
         [JsonProperty("password")]
@@ -24,7 +27,5 @@ namespace GestionHotel.Domain.Commands.User
         public string Token { get; set; }
         [JsonProperty("status")]
         public byte Status { get; set; }
-        
-
     }
 }

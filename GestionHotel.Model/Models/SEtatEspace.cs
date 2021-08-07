@@ -5,6 +5,11 @@ namespace GestionHotel.Model.Models
 {
     public partial class SEtatEspace
     {
+        public SEtatEspace()
+        {
+            SEspace = new HashSet<SEspace>();
+        }
+
         public int Id { get; set; }
         public string Libelle { get; set; }
         public int? Valeur { get; set; }
@@ -15,5 +20,7 @@ namespace GestionHotel.Model.Models
         public DateTime ModifiedAt { get; set; }
         public int? DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
+
+        public virtual ICollection<SEspace> SEspace { get; set; }
     }
 }

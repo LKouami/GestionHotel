@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Seamless.Domain.Events.User
+namespace GestionHotel.Domain.Events.User
 {
     public class UserUpdatedEvent : INotification
     {

@@ -9,5 +9,4 @@ namespace GestionHotel.Domain.Commands.Client
     public class DeleteClientCommand : DeleteBaseCommand<short, DeleteResult>
     {
     }
-
 }

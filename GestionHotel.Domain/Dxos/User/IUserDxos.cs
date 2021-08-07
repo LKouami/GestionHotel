@@ -1,6 +1,7 @@
 ﻿using GestionHotel.Domain.Commands.User;
 using GestionHotel.Model.Dtos;
 using GestionHotel.Model.Models;
+using GestionHotel.Domain.Dxos;
 using GestionHotel.Domain.Dxos.Common;
 
 namespace GestionHotel.Domain.Dxos

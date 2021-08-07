@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace Seamless.Domain.Events.User
+namespace GestionHotel.Domain.Events.User
 {
     public class UserCreatedEvent : INotification
     {

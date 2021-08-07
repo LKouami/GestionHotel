@@ -31,7 +31,7 @@ namespace GestionHotel.Domain.Dxos
 
 
                 cfg.CreateMap<UpdateTypeClientCommand, STypeClient>()
-                    .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
+                  .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.Id))
                   .ForMember(dst => dst.Nom, opt => opt.MapFrom(src => src.Nom))
                   .ForMember(dst => dst.Status, opt => opt.MapFrom(src => src.Status))
                   .ForMember(dst => dst.ModifiedAt, opt => opt.MapFrom(src => src.ModifiedAt))

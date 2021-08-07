@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestionHotel.Domain.Commands.Common;
+using System;
 
 namespace GestionHotel.Domain.Commands.User
 {
