@@ -1,0 +1,361 @@
+2021-08-05 22:31:19.038 +00:00 [INF] Application starting up
+2021-08-05 22:31:24.068 +00:00 [DBG] Hosting starting
+2021-08-05 22:31:24.138 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-05 22:31:24.153 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
+2021-08-05 22:31:24.188 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
+2021-08-05 22:31:24.208 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
+2021-08-05 22:31:24.225 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 22:31:24.228 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-05 22:31:24.229 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 22:31:24.233 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-05 22:31:24.236 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-05 22:31:24.243 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
+2021-08-05 22:31:24.243 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
+2021-08-05 22:31:25.204 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
+2021-08-05 22:31:25.217 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-05 22:31:25.217 +00:00 [INF] Hosting environment: Development
+2021-08-05 22:31:25.217 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\KOUAMI Soutenance\Butler\Backend\GestionHotel\GestionHotel.API
+2021-08-05 22:31:25.217 +00:00 [DBG] Hosting started
+2021-08-05 22:31:25.259 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2021-08-05 22:31:25.259 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-05 22:31:25.264 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 22:31:25.264 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 22:31:25.264 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:31:25.264 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:31:25.284 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
+2021-08-05 22:31:25.284 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-05 22:31:25.308 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
+2021-08-05 22:31:25.367 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-08-05 22:31:25.367 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-05 22:31:25.367 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:31:25.367 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:31:25.513 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-05 22:31:25.513 +00:00 [DBG] Request information GET /swagger/index.html information
+2021-08-05 22:31:25.609 +00:00 [DBG] Response information GET /swagger/index.html 200
+2021-08-05 22:31:25.625 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 337.9469 ms
+2021-08-05 22:31:25.630 +00:00 [INF] Request finished in 381.79ms 200 text/html;charset=utf-8
+2021-08-05 22:31:26.060 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-05 22:31:26.096 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 810.802 ms
+2021-08-05 22:31:26.097 +00:00 [INF] Request finished in 849.3881ms 200 application/json;charset=utf-8
+2021-08-05 22:31:27.512 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-05 22:31:27.513 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:31:27.514 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-05 22:31:27.516 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-05 22:31:27.516 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:31:27.518 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-05 22:31:27.651 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-05 22:31:27.654 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 139.2317 ms
+2021-08-05 22:31:27.662 +00:00 [INF] Request finished in 149.9227ms 200 application/json;charset=utf-8
+2021-08-05 22:32:09.373 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/v1/affectationmateriel?sort=id&direction=asc&pageIndex=1&pageSize=1  
+2021-08-05 22:32:09.373 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:32:09.373 +00:00 [DBG] The request path /api/v1/affectationmateriel does not match a supported file type
+2021-08-05 22:32:09.382 +00:00 [DBG] 1 candidate(s) found for the request path '/api/v1/affectationmateriel'
+2021-08-05 22:32:09.384 +00:00 [DBG] Endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)' with route pattern 'api/v1/AffectationMateriel' is valid for the request path '/api/v1/affectationmateriel'
+2021-08-05 22:32:09.385 +00:00 [DBG] Request matched endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
+2021-08-05 22:32:09.386 +00:00 [DBG] Request information GET /api/v1/affectationmateriel information
+2021-08-05 22:32:09.387 +00:00 [INF] Executing endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
+2021-08-05 22:32:09.391 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-08-05 22:32:09.429 +00:00 [INF] Route matched with {action = "GetAffectationMateriels", controller = "AffectationMateriel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[GestionHotel.Model.Dtos.PagedResults`1[GestionHotel.Model.Dtos.AffectationMaterielDto]]] GetAffectationMaterielsAsync(GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery) on controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1).
+2021-08-05 22:32:09.430 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 22:32:09.430 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-08-05 22:32:09.430 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","GestionHotel.API.Helpers.HttpResponseExceptionFilter (Order: 2147483637)"]
+2021-08-05 22:32:09.430 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 22:32:09.431 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2021-08-05 22:32:09.431 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:32:09.431 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:32:09.431 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:32:09.432 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:32:09.432 +00:00 [DBG] Executing controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
+2021-08-05 22:32:09.432 +00:00 [DBG] Executed controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
+2021-08-05 22:32:09.436 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
+2021-08-05 22:32:09.439 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' using the name '' in request data ...
+2021-08-05 22:32:09.441 +00:00 [DBG] Could not find a value in the request with name 'Search' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
+2021-08-05 22:32:09.441 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
+2021-08-05 22:32:09.443 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String' using the name 'Sort' in request data ...
+2021-08-05 22:32:09.443 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String' using the name 'Direction' in request data ...
+2021-08-05 22:32:09.444 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32' using the name 'PageIndex' in request data ...
+2021-08-05 22:32:09.444 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2021-08-05 22:32:09.444 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Could not find a value in the request with name 'UserId' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
+2021-08-05 22:32:09.444 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:32:09.445 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:32:09.445 +00:00 [DBG] Attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
+2021-08-05 22:32:09.457 +00:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:32:09.457 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:32:09.458 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:32:09.458 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:32:09.458 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:32:09.458 +00:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:32:09.459 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:32:09.459 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:32:09.463 +00:00 [INF] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) - Validation state: "Valid"
+2021-08-05 22:32:09.463 +00:00 [VRB] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) with arguments (["GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery"])
+2021-08-05 22:32:09.709 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-08-05 22:32:10.492 +00:00 [WRN] The property 'Id' on entity type 'AClaim' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2021-08-05 22:32:10.493 +00:00 [WRN] The property 'Id' on entity type 'ARole' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2021-08-05 22:32:10.520 +00:00 [INF] Entity Framework Core 3.1.1 initialized 'NoyauxButlerDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-05 22:32:10.685 +00:00 [DBG] queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new QueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache, 
+        null, 
+        ReaderColumn[] { ReaderColumn<int>, }, 
+        Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, int>, 
+        GestionHotel.Model.Models.NoyauxButlerDBContext, 
+        DiagnosticsLogger<Query>
+    ), 
+    cancellationToken: queryContext.CancellationToken)
+2021-08-05 22:32:10.718 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 22:32:10.998 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (276ms).
+2021-08-05 22:32:11.002 +00:00 [DBG] Opening connection to database 'NoyauxButlerDB' on server 'DESKTOP-00J7RCP'.
+2021-08-05 22:34:43.698 +00:00 [INF] Application starting up
+2021-08-05 22:34:45.219 +00:00 [DBG] Hosting starting
+2021-08-05 22:34:45.267 +00:00 [INF] User profile is available. Using 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-05 22:34:45.273 +00:00 [DBG] Reading data from file 'C:\Users\rkoua\AppData\Local\ASP.NET\DataProtection-Keys\key-adc75652-0ac8-4129-9e14-e7692665b645.xml'.
+2021-08-05 22:34:45.299 +00:00 [DBG] Found key "adc75652-0ac8-4129-9e14-e7692665b645".
+2021-08-05 22:34:45.309 +00:00 [DBG] Considering key "adc75652-0ac8-4129-9e14-e7692665b645" with expiration date "2021-10-13T23:10:28.6788193+00:00" as default key.
+2021-08-05 22:34:45.317 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 22:34:45.320 +00:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-08-05 22:34:45.321 +00:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.17.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-08-05 22:34:45.324 +00:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-08-05 22:34:45.326 +00:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-08-05 22:34:45.330 +00:00 [DBG] Using key "adc75652-0ac8-4129-9e14-e7692665b645" as the default key.
+2021-08-05 22:34:45.330 +00:00 [DBG] Key ring with default key "adc75652-0ac8-4129-9e14-e7692665b645" was loaded during application startup.
+2021-08-05 22:34:45.575 +00:00 [DBG] Loaded hosting startup assembly GestionHotel.API
+2021-08-05 22:34:45.576 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-05 22:34:45.582 +00:00 [INF] Hosting environment: Development
+2021-08-05 22:34:45.582 +00:00 [INF] Content root path: C:\Users\rkoua\Documents\KOUAMI Soutenance\Butler\Backend\GestionHotel\GestionHotel.API
+2021-08-05 22:34:45.582 +00:00 [DBG] Hosting started
+2021-08-05 22:34:45.591 +00:00 [DBG] Connection ID "18230571297501347871" disconnecting.
+2021-08-05 22:34:45.603 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-05 22:34:45.603 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/index.html  
+2021-08-05 22:34:45.606 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 22:34:45.606 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-05 22:34:45.606 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:34:45.606 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:34:45.616 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-05 22:34:45.616 +00:00 [DBG] The request path /swagger/index.html does not match an existing file
+2021-08-05 22:34:45.625 +00:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Features/Index.cshtml'.
+2021-08-05 22:34:45.653 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-05 22:34:45.653 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2021-08-05 22:34:45.654 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:34:45.654 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:34:45.692 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-05 22:34:45.692 +00:00 [DBG] Request information GET /swagger/index.html information
+2021-08-05 22:34:45.735 +00:00 [DBG] Response information GET /swagger/index.html 200
+2021-08-05 22:34:45.741 +00:00 [INF] HTTP GET /swagger/index.html responded 200 in 123.1849 ms
+2021-08-05 22:34:45.747 +00:00 [INF] Request finished in 146.5315ms 200 text/html;charset=utf-8
+2021-08-05 22:34:45.903 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-05 22:34:45.904 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 287.2004 ms
+2021-08-05 22:34:45.905 +00:00 [INF] Request finished in 304.2212ms 200 application/json;charset=utf-8
+2021-08-05 22:34:46.703 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-05 22:34:46.704 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:34:46.705 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-05 22:34:46.707 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-05 22:34:46.708 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:34:46.710 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-05 22:34:46.791 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-05 22:34:46.797 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/swagger/v1/swagger.json  
+2021-08-05 22:34:46.797 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:34:46.797 +00:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2021-08-05 22:34:46.798 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-08-05 22:34:46.798 +00:00 [DBG] Request did not match any endpoints
+2021-08-05 22:34:46.799 +00:00 [DBG] Request information GET /swagger/v1/swagger.json information
+2021-08-05 22:34:46.802 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 95.9176 ms
+2021-08-05 22:34:46.802 +00:00 [INF] Request finished in 99.5312ms 200 application/json;charset=utf-8
+2021-08-05 22:34:46.861 +00:00 [DBG] Response information GET /swagger/v1/swagger.json 200
+2021-08-05 22:34:46.863 +00:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 65.3521 ms
+2021-08-05 22:34:46.863 +00:00 [INF] Request finished in 66.4163ms 200 application/json;charset=utf-8
+2021-08-05 22:35:07.871 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/api/v1/affectationmateriel?sort=id&direction=asc&pageIndex=1&pageSize=1  
+2021-08-05 22:35:07.871 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:35:07.871 +00:00 [DBG] The request path /api/v1/affectationmateriel does not match a supported file type
+2021-08-05 22:35:07.879 +00:00 [DBG] 1 candidate(s) found for the request path '/api/v1/affectationmateriel'
+2021-08-05 22:35:07.882 +00:00 [DBG] Endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)' with route pattern 'api/v1/AffectationMateriel' is valid for the request path '/api/v1/affectationmateriel'
+2021-08-05 22:35:07.883 +00:00 [DBG] Request matched endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
+2021-08-05 22:35:07.884 +00:00 [DBG] Request information GET /api/v1/affectationmateriel information
+2021-08-05 22:35:07.884 +00:00 [INF] Executing endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
+2021-08-05 22:35:07.889 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2021-08-05 22:35:07.930 +00:00 [INF] Route matched with {action = "GetAffectationMateriels", controller = "AffectationMateriel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[GestionHotel.Model.Dtos.PagedResults`1[GestionHotel.Model.Dtos.AffectationMaterielDto]]] GetAffectationMaterielsAsync(GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery) on controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1).
+2021-08-05 22:35:07.930 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 22:35:07.930 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.ConsumesAttribute"]
+2021-08-05 22:35:07.931 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","GestionHotel.API.Helpers.HttpResponseExceptionFilter (Order: 2147483637)"]
+2021-08-05 22:35:07.931 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 22:35:07.931 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2021-08-05 22:35:07.931 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:07.932 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:07.932 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:35:07.932 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:35:07.932 +00:00 [DBG] Executing controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
+2021-08-05 22:35:07.933 +00:00 [DBG] Executed controller factory for controller GestionHotel.API.V1.Controllers.AffectationMaterielController (GestionHotel.API.V1)
+2021-08-05 22:35:07.937 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
+2021-08-05 22:35:07.940 +00:00 [DBG] Attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' using the name '' in request data ...
+2021-08-05 22:35:07.942 +00:00 [DBG] Could not find a value in the request with name 'Search' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
+2021-08-05 22:35:07.943 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Search' of type 'System.String'.
+2021-08-05 22:35:07.944 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String' using the name 'Sort' in request data ...
+2021-08-05 22:35:07.944 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Sort' of type 'System.String'.
+2021-08-05 22:35:07.945 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String' using the name 'Direction' in request data ...
+2021-08-05 22:35:07.945 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.Direction' of type 'System.String'.
+2021-08-05 22:35:07.945 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32' using the name 'PageIndex' in request data ...
+2021-08-05 22:35:07.945 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageIndex' of type 'System.Int32'.
+2021-08-05 22:35:07.945 +00:00 [DBG] Attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32' using the name 'PageSize' in request data ...
+2021-08-05 22:35:07.945 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.PageSize' of type 'System.Int32'.
+2021-08-05 22:35:07.946 +00:00 [DBG] Could not find a value in the request with name 'UserId' for binding property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
+2021-08-05 22:35:07.946 +00:00 [DBG] Done attempting to bind property 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery.UserId' of type 'System.Int32'.
+2021-08-05 22:35:07.946 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:35:07.946 +00:00 [DBG] Done attempting to bind parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:35:07.946 +00:00 [DBG] Attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery' ...
+2021-08-05 22:35:07.960 +00:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery'.
+2021-08-05 22:35:07.960 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:35:07.960 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:35:07.960 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:35:07.960 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:35:07.960 +00:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:35:07.961 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:35:07.961 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:35:07.965 +00:00 [INF] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) - Validation state: "Valid"
+2021-08-05 22:35:07.965 +00:00 [VRB] Executing action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) with arguments (["GestionHotel.Domain.Queries.AffectationMateriel.GetAffectationMaterielsQuery"])
+2021-08-05 22:35:08.062 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-08-05 22:35:08.795 +00:00 [WRN] The property 'Id' on entity type 'AClaim' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2021-08-05 22:35:08.795 +00:00 [WRN] The property 'Id' on entity type 'ARole' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+2021-08-05 22:35:08.826 +00:00 [INF] Entity Framework Core 3.1.1 initialized 'NoyauxButlerDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-05 22:35:09.000 +00:00 [DBG] queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new QueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache, 
+        null, 
+        ReaderColumn[] { ReaderColumn<int>, }, 
+        Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, int>, 
+        GestionHotel.Model.Models.NoyauxButlerDBContext, 
+        DiagnosticsLogger<Query>
+    ), 
+    cancellationToken: queryContext.CancellationToken)
+2021-08-05 22:35:09.033 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 22:35:09.185 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (147ms).
+2021-08-05 22:35:09.189 +00:00 [DBG] Opening connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.334 +00:00 [DBG] Opened connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.342 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [S_AffectationMateriel] AS [s]
+2021-08-05 22:35:09.383 +00:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [S_AffectationMateriel] AS [s]
+2021-08-05 22:35:09.415 +00:00 [DBG] A data reader was disposed.
+2021-08-05 22:35:09.418 +00:00 [DBG] Closing connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.425 +00:00 [DBG] Closed connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.463 +00:00 [DBG] queryContext => new QueryingEnumerable<AffectationMaterielDto>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    ReaderColumn[] { ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<int>, ReaderColumn<DateTime>, ReaderColumn<int>, ReaderColumn<byte>, }, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, AffectationMaterielDto>, 
+    GestionHotel.Model.Models.NoyauxButlerDBContext, 
+    DiagnosticsLogger<Query>
+)
+2021-08-05 22:35:09.474 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-08-05 22:35:09.474 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-08-05 22:35:09.478 +00:00 [DBG] Opening connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.479 +00:00 [DBG] Opened connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.482 +00:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Created_At] AS [CreatedAt], [s].[Created_By] AS [CreatedBy], [s].[Deleted_At] AS [DeletedAt], [s].[Deleted_By] AS [DeletedBy], [s].[EspaceId], [s].[Id], [s].[MaterielId], [s].[Modified_At] AS [ModifiedAt], [s].[Modified_By] AS [ModifiedBy], [s].[Status]
+FROM [S_AffectationMateriel] AS [s]
+ORDER BY [s].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2021-08-05 22:35:09.517 +00:00 [INF] Executed DbCommand (38ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Created_At] AS [CreatedAt], [s].[Created_By] AS [CreatedBy], [s].[Deleted_At] AS [DeletedAt], [s].[Deleted_By] AS [DeletedBy], [s].[EspaceId], [s].[Id], [s].[MaterielId], [s].[Modified_At] AS [ModifiedAt], [s].[Modified_By] AS [ModifiedBy], [s].[Status]
+FROM [S_AffectationMateriel] AS [s]
+ORDER BY [s].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2021-08-05 22:35:09.525 +00:00 [DBG] A data reader was disposed.
+2021-08-05 22:35:09.526 +00:00 [DBG] Closing connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.526 +00:00 [DBG] Closed connection to database 'NoyauxButlerDB' on server 'DESKTOP-J7BTT8V\SQLEXPRESS'.
+2021-08-05 22:35:09.534 +00:00 [INF] Executed action method GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1563.7116ms.
+2021-08-05 22:35:09.535 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:35:09.536 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:35:09.537 +00:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:35:09.537 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:35:09.537 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2021-08-05 22:35:09.538 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:35:09.538 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:35:09.539 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.539 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.540 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2021-08-05 22:35:09.540 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2021-08-05 22:35:09.540 +00:00 [VRB] Result Filter: Before executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:35:09.541 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2021-08-05 22:35:09.541 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2021-08-05 22:35:09.542 +00:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2021-08-05 22:35:09.543 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-08-05 22:35:09.545 +00:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2021-08-05 22:35:09.546 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-05 22:35:09.546 +00:00 [INF] Executing ObjectResult, writing value of type 'GestionHotel.Model.Dtos.PagedResults`1[[GestionHotel.Model.Dtos.AffectationMaterielDto, GestionHotel.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-05 22:35:09.557 +00:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2021-08-05 22:35:09.557 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2021-08-05 22:35:09.557 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute.
+2021-08-05 22:35:09.557 +00:00 [VRB] Result Filter: After executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:35:09.557 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2021-08-05 22:35:09.557 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2021-08-05 22:35:09.558 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.558 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.559 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:35:09.559 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ConsumesAttribute.
+2021-08-05 22:35:09.559 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.559 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:35:09.564 +00:00 [INF] Executed action GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1) in 1629.0219ms
+2021-08-05 22:35:09.564 +00:00 [INF] Executed endpoint 'GestionHotel.API.V1.Controllers.AffectationMaterielController.GetAffectationMaterielsAsync (GestionHotel.API.V1)'
+2021-08-05 22:35:09.565 +00:00 [DBG] Response information GET /api/v1/affectationmateriel 200
+2021-08-05 22:35:09.565 +00:00 [INF] HTTP GET /api/v1/affectationmateriel?sort=id&direction=asc&pageIndex=1&pageSize=1 responded 200 in 1693.6939 ms
+2021-08-05 22:35:09.567 +00:00 [DBG] 'NoyauxButlerDBContext' disposed.
+2021-08-05 22:35:09.569 +00:00 [INF] Request finished in 1698.4456ms 200 application/json; charset=utf-8
+2021-08-05 22:36:03.114 +00:00 [INF] Request starting HTTP/2.0 GET https://localhost:44376/test  
+2021-08-05 22:36:03.114 +00:00 [VRB] All hosts are allowed.
+2021-08-05 22:36:03.115 +00:00 [DBG] The request path /test does not match a supported file type
+2021-08-05 22:36:03.115 +00:00 [DBG] 1 candidate(s) found for the request path '/test'
+2021-08-05 22:36:03.116 +00:00 [DBG] Endpoint 'GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API)' with route pattern 'test' is valid for the request path '/test'
+2021-08-05 22:36:03.116 +00:00 [DBG] Request matched endpoint 'GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API)'
+2021-08-05 22:36:03.117 +00:00 [DBG] Request information GET /test information
+2021-08-05 22:36:03.118 +00:00 [INF] Executing endpoint 'GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API)'
+2021-08-05 22:36:03.123 +00:00 [INF] Route matched with {action = "Test", controller = "Values"}. Executing controller action with signature System.String Test() on controller GestionHotel.API.Controllers.ValuesController (GestionHotel.API).
+2021-08-05 22:36:03.124 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-05 22:36:03.124 +00:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-08-05 22:36:03.124 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)","GestionHotel.API.Helpers.HttpResponseExceptionFilter (Order: 2147483637)"]
+2021-08-05 22:36:03.124 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-05 22:36:03.124 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","GestionHotel.API.Helpers.SerilogMvcLoggingAttribute (Order: 0)"]
+2021-08-05 22:36:03.124 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.124 +00:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.124 +00:00 [DBG] Executing controller factory for controller GestionHotel.API.Controllers.ValuesController (GestionHotel.API)
+2021-08-05 22:36:03.125 +00:00 [DBG] Executed controller factory for controller GestionHotel.API.Controllers.ValuesController (GestionHotel.API)
+2021-08-05 22:36:03.125 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:36:03.125 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:36:03.125 +00:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:36:03.125 +00:00 [VRB] Action Filter: Before executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:36:03.125 +00:00 [VRB] Action Filter: After executing OnActionExecuting on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:36:03.129 +00:00 [INF] Executing action method GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API) - Validation state: "Valid"
+2021-08-05 22:36:03.130 +00:00 [INF] Executed action method GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3669ms.
+2021-08-05 22:36:03.130 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter GestionHotel.API.Helpers.HttpResponseExceptionFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:36:03.130 +00:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.130 +00:00 [VRB] Result Filter: Before executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:36:03.131 +00:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2021-08-05 22:36:03.131 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-08-05 22:36:03.131 +00:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-08-05 22:36:03.131 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2021-08-05 22:36:03.131 +00:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-05 22:36:03.132 +00:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2021-08-05 22:36:03.132 +00:00 [VRB] Result Filter: After executing OnResultExecutionAsync on filter GestionHotel.API.Helpers.SerilogMvcLoggingAttribute.
+2021-08-05 22:36:03.132 +00:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.132 +00:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.132 +00:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.132 +00:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2021-08-05 22:36:03.132 +00:00 [INF] Executed action GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API) in 8.1661ms
+2021-08-05 22:36:03.132 +00:00 [INF] Executed endpoint 'GestionHotel.API.Controllers.ValuesController.Test (GestionHotel.API)'
+2021-08-05 22:36:03.133 +00:00 [DBG] Response information GET /test 200
+2021-08-05 22:36:03.134 +00:00 [INF] HTTP GET /test responded 200 in 18.6627 ms
+2021-08-05 22:36:03.134 +00:00 [INF] Request finished in 20.755ms 200 text/plain; charset=utf-8
